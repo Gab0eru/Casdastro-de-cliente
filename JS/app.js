@@ -36,12 +36,8 @@ document.getElementById("procurar").addEventListener("click", () =>{
         const item = document.createElement("li");
         item.textContent = `${achaCliente.nome} - ${achaCliente.email}`;
         resultado.appendChild(item);
-        
-        console.log(achaCliente.nome);
-        console.log(achaCliente.email);
     }
     else{
         resultado.innerHTML = "<li>Cliente não encontrado!</li>";
-        console.log("Cliente não encontrado");
     }
 })
