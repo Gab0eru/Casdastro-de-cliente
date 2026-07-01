@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 20px;
+    background-color: lightslategray;
+}
